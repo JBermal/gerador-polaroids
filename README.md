@@ -6,7 +6,7 @@ Distribuído como executável compilado com [Nuitka](https://nuitka.net/). Códi
 
 ## Download
 
-Use a [release mais recente](https://github.com/JBermal/gerador-polaroids/releases) e execute o `.exe` — não é necessário instalar Python.
+Baixe o executável em [`dist_nuitka/`](https://github.com/JBermal/gerador-polaroids/tree/main/dist_nuitka) ou pela [release](https://github.com/JBermal/gerador-polaroids/releases) — não é necessário instalar Python.
 
 ## Recursos
 
@@ -24,6 +24,7 @@ polaroid/
 ├── polaroid_gui.py      # Interface gráfica (PyQt6)
 ├── photo_engine.py      # Motor de processamento (Pillow)
 ├── assets/              # Ícone e logo embutidos no build
+├── dist_nuitka/         # Executável Windows pronto (~25 MB)
 ├── onefile_nuitka.bat   # Compilação onefile (Nuitka)
 ├── release_sign.ps1     # Assinatura e checksum do .exe
 ├── requirements.txt     # Dependências de execução
