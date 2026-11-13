@@ -1,0 +1,41 @@
+# Ambientes virtuais
+.bancada/
+.caixa/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Nuitka / compilação
+nuitka/
+*.build/
+*.dist/
+*.onefile-build/
+
+# Binários locais (publique via GitHub Releases)
+dist_nuitka/*.exe
+dist_nuitka/*.pdb
+
+# IDE / SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Pastas de trabalho locais
+fotos/
+fotos_3x4/
+fotos_5x7/
+polaroids/
+saida/
+output/
