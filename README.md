@@ -4,6 +4,8 @@ Aplicativo desktop (Windows) para transformar fotos em Polaroid, 3×4, 5×7 ou f
 
 Distribuído como executável compilado com [Nuitka](https://nuitka.net/). Código-fonte e scripts de build ficam neste repositório.
 
+![Tela do Gerador de Polaroids](demo.png)
+
 ## Download
 
 Baixe o executável em [`dist_nuitka/`](https://github.com/JBermal/gerador-polaroids/tree/main/dist_nuitka) ou pela [release](https://github.com/JBermal/gerador-polaroids/releases) — não é necessário instalar Python.
@@ -24,6 +26,7 @@ polaroid/
 ├── polaroid_gui.py      # Interface gráfica (PyQt6)
 ├── photo_engine.py      # Motor de processamento (Pillow)
 ├── assets/              # Ícone e logo embutidos no build
+├── demo.png             # Captura de tela do app
 ├── dist_nuitka/         # Executável Windows pronto (~25 MB)
 ├── onefile_nuitka.bat   # Compilação onefile (Nuitka)
 ├── release_sign.ps1     # Assinatura e checksum do .exe
